@@ -1,0 +1,183 @@
+body {
+  text-align: center;
+  background-color: #680979;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #60c4e5;
+  font-family: "Arvo", cursive;
+  text-shadow: 5px 0 #DA0463;
+}
+
+footer {
+  color: #082e3a;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url("./images/tom1.png");
+}
+
+.a {
+  background-image: url("./images/tom2.png");
+}
+
+.s {
+  background-image: url("./images/tom3.png");
+}
+
+.d {
+  background-image: url("./images/kick.png");
+}
+
+.j {
+  background-image: url("./images/snare.png");
+}
+
+.k {
+  background-image: url("./images/crash.png");
+}
+
+.l {
+  background-image: url("./images/kick.png");
+}
+
+.q {
+  background-image: url("./images/tom2.png");
+}
+.e {
+  background-image: url("./images/tom3.png");
+}
+.r {
+  background-image: url("./images/kick.png");
+}
+.t {
+  background-image: url("./images/snare.png");
+}
+.y {
+  background-image: url("./images/tom2.png");
+}
+.u {
+  background-image: url("./images/crash.png");
+}
+.i {
+  background-image: url("./images/tom1.png");
+}
+.set {
+  margin: 5% auto;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 3rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 300;
+  color: #de1c9a;
+  text-shadow: 2px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+/* footer  */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: rgb(203, 168, 239);
+  color: white;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Icon colors */
+.instagram-icon {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown menu above the icon */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  min-width: 140px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 12px;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.dropdown-menu li a:hover {
+  background: #f0f0f0;
+}
+
+.dropdown.open .dropdown-menu {
+  display: block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #cba4e6;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
